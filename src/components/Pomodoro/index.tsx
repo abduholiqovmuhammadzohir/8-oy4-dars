@@ -53,6 +53,7 @@ export const Pomodoro = () => {
   return (
     <main className="mx-2 my-5 flex min-h-screen flex-col items-center justify-center gap-6 px-2">
       <Head title={title} icon={icon} />
+      <h1 style={{fontSize:"30px"}}>Pomodoro</h1>
       <div className="flex gap-4">
         <DisplayTimeButton
           focused={currentStatusPomodoro === 'pomodoroTime' && true}
